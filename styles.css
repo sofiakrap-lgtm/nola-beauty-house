@@ -133,6 +133,12 @@ h1 {
   white-space: nowrap;
 }
 
+.wordmark-logo {
+  display: block;
+  height: 34px;
+  width: auto;
+}
+
 .nav-links { display: flex; gap: 2.25rem; }
 .nav-links a {
   font-family: var(--font-head);
@@ -249,6 +255,13 @@ h1 {
   color: var(--ice);
 }
 .footer .wordmark { color: var(--ice); font-size: 1.1rem; }
+.footer-logo {
+  height: 56px;
+  width: auto;
+  /* tumma logo vaalennetaan espresso-taustaa vasten */
+  filter: brightness(0) invert(1);
+  opacity: 0.92;
+}
 .footer-meta {
   margin-top: 0.75rem;
   font-size: 0.72rem;
